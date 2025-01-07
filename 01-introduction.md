@@ -79,7 +79,7 @@ For example, in older-style architectures like ESB-driven SOA, handling things l
 The process that the development team uses has impact on many facets of software architecture. Agile projects can assume iterative development - iterative development and faster feedback loop for decisions. This allows architects to be more aggressive about experimentation.
 _"All architectures become iterative; it's just a matter of time" - Mark Richards (one of the authors)_
 ### Data
-- Code and data have a symbiotic relationship: one isn't useful without the other.
+- Code and data have a symbiotic relationship: one isn't useful without the other
 - Database admins work with architects to build data architecture for complex systems
 ## Laws of Software Architecture
 - _"Everything in software architecture is a trade-off" - First Law of Software Architecture_
