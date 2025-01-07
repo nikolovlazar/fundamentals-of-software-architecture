@@ -82,8 +82,8 @@ _"All architectures become iterative; it's just a matter of time" - Mark Richard
 - Code and data have a symbiotic relationship: one isn't useful without the other
 - Database admins work with architects to build data architecture for complex systems
 ## Laws of Software Architecture
-- _"Everything in software architecture is a trade-off" - First Law of Software Architecture_
-- _"... if an architect thinks they've discovered something that isn't a trade-off, it's more likely that they just haven't identified the trade-off yet" - Corollary 1_
-- _"Why is more important than how" - Second Law of Software Architecture_
+1. _"Everything in software architecture is a trade-off" - First Law of Software Architecture_
+	- _"... if an architect thinks they've discovered something that isn't a trade-off, it's more likely that they just haven't identified the trade-off yet" - Corollary 1_
+2. _"Why is more important than how" - Second Law of Software Architecture_
 	- Architecture is defined beyond structural scaffolding, incorporating principles, characteristics, and so on. It's broader than just the combination of structural elements.
 	- An architect can look at an existing system and identify how the structure works, but will struggle to explain why certain decisions were made.
