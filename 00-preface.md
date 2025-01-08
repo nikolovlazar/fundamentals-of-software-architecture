@@ -1,5 +1,8 @@
 # Preface
 
+[![Watch YouTube Video](https://img.youtube.com/vi/WXIuQQGrUsQ/0.jpg)](https://www.youtube.com/watch?v=WXIuQQGrUsQ)
+> Watch video for more details and discussions ^
+
 Just like mathematicians, software architects also build theories on top of
 axioms. But unlike mathematics, the software ecosystem is dynamic and in a
 constant change. For example, Kubernetes didn't exist before 2014, but today it
