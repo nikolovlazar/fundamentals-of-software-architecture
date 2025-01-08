@@ -27,7 +27,7 @@ Software architecture consists of:
 	- For example, in order to increase performance, the architect can suggest dev teams to leverage async messaging between services within a microservice architecture
 	- While an _architectural decision_ defines exact constraints, _design principles_ allow more freedom to developers to choose an appropriate solution
 ## Expectations of an Architect
-Defining the role of an architect is equally difficult as define software architecture. But regardless of the definition, there are eight core expectations of software architects:
+Defining the role of an architect is as difficult as defining software architecture. But regardless of the definition, there are eight core expectations of software architects:
 - Make architecture decisions
 	- _An architect is expected to define the architecture decisions and design principles used to guide technology decisions within the team, the department, or across the enterprise_
 	- The key word is _guide_. An architect should _guide_ rather than _specify_ technology choices
