@@ -25,6 +25,7 @@ So, where does architecture end and design start? It doesn't - they coexist in p
 A developer focuses on acquiring and maintaining *technical depth*, while an architect focuses on *technical breadth*. It's crucial to have a significant amount of breadth in order to think like an architect.
 
 We can categorize all of the knowledge into three sections: *stuff we know*, *stuff we know we don't know*, *stuff we don't know we don't know*.
+
 ![Knowledge pyramid](./assets/knowledge-pyramid.excalidraw.svg)
 
 A large part of the architect's value is having a *broad* technological understanding and knowing how to use it to solve particular problems. The most important part of the pyramid for an architect are the *top* and *middle* - the further the middle part extends into the bottom one, the wider the technical breadth.
