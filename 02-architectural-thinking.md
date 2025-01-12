@@ -16,7 +16,7 @@ Traditionally, an architect's responsibility included analyzing business require
 
 ![Traditional responsibility model](./assets/traditional-responsibility-model.excalidraw.svg)
 
-The unidirectional arrow passing through the barrier(s) is what's wrong with the traditional responsibility model because it separates the architect from the developer. Decisions that the architect makes sometimes never make it to the development team, and vice versa - decisions that the development team makes that affect the architecture never make it back to the architect. To make architecture work, we need to break down the barriers. The architect and the developer must be on the same team. This also allows the architect to provide mentoring and coaching to the developers on the team.
+The unidirectional arrow passing through the barrier(s) is **what's wrong** with the traditional responsibility model because it **separates the architect from the developer**. Decisions that the architect makes sometimes never make it to the development team, and vice versa - decisions that the development team makes that affect the architecture never make it back to the architect. To make architecture work, we need to **break down the barriers**. The architect and the developer must be on the same team. This also allows the architect to provide mentoring and coaching to the developers on the team.
 
 So, where does architecture end and design start? It doesn't - they coexist in parallel within the lifecycle of the software project and must be kept in synchronization.
 
@@ -77,7 +77,7 @@ It seems clear that the topic approach is the obvious and best choice, right? Th
 	- In the *queues* solution, each service implements its queue, and the `BidProducer` sends the bidding data separately to each queue. The `BidProducer` can fine-tune the bidding information per service.
 - The *topic* model does not support monitoring of the number of messages in the topic, and hence auto-scaling is harder to implement
 	- In the *queues* solution, each queue can be monitored individually, so we can apply programmatic load-balancing to scale automatically
-	- <u>Disclaimer</u>: this is a technology specific trade-off - some messaging protocols do support programmatic load balancing and monitoring
+	- **Disclaimer**: this is a technology specific trade-off - some messaging protocols do support programmatic load balancing and monitoring
 
 So, which is the better option? The answer is - "it depends". This table summarizes the trade-offs:
 
