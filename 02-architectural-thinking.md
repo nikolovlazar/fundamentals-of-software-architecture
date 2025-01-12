@@ -51,7 +51,7 @@ Thinking like an architect is seeing trade-offs in every solution, and analyzing
 
 > *"There are no right or wrong answers in architecture - only trade-offs" - Neil Ford*
 
-Let's see an example of an item auction system, where someone places a bid for an item up for auction. The `BidProducer` service generates a bid from the bidder and sends it to the `BidCapture`, `BidTracking`, and `BidAnalytics` services. There are two possible solutions: using *queues* (point-to-point) or *a topic* (pub-sub). Which one should the architect use?
+Let's see an example of an item auction system, where someone places a bid for an item up for auction. The `BidProducer` service generates a bid from the bidder and sends it to the `BidCapture`, `BidTracking`, and `BidAnalytics` services. There are two possible solutions: using *topic* (pub-sub) or *queues* (point-to-point). Which one should the architect use?
 
 ![Auction System using Topics](./assets/auction-system-topic.excalidraw.png)
 
