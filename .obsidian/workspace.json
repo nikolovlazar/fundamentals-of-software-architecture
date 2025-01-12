@@ -56,15 +56,12 @@
             "id": "2b960d8cb9ad790a",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "excalidraw",
               "state": {
-                "file": "02-architectural-thinking.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
+                "file": "assets/auction-system-queues.excalidraw.md"
               },
-              "icon": "lucide-file",
-              "title": "02-architectural-thinking"
+              "icon": "excalidraw-icon",
+              "title": "auction-system-queues.excalidraw"
             }
           }
         ],
@@ -166,20 +163,20 @@
   "active": "2b960d8cb9ad790a",
   "lastOpenFiles": [
     "assets/auction-system-topic.excalidraw.md",
-    "assets/auction-system-topic.excalidraw.png",
-    "02-architectural-thinking.md",
+    "assets/knowledge-pyramid.excalidraw.md",
+    "assets/responsibility-of-software-architect.excalidraw.md",
     "assets/traditional-responsibility-model.excalidraw.md",
+    "02-architectural-thinking.md",
+    "assets/auction-system-topic.excalidraw.png",
     "README.md",
     "assets/auction-system-queues.excalidraw.md",
     "assets/auction-system-topics.excalidraw.png",
     "assets/auction-system-queues.excalidraw.png",
-    "assets/knowledge-pyramid.excalidraw.md",
     "assets/knowledge-pyramid.excalidraw.png",
     "assets/traditional-responsibility-model.excalidraw.png",
     "00-preface.md",
     "01-introduction.md",
     "assets/traditional-architect-responsibilities.excalidraw.png",
-    "assets/responsibility-of-software-architect.excalidraw.md",
     "assets/responsibility-of-software-architect.excalidraw.png",
     "assets/responsibility-of-software-architect.png",
     "assets/Drawing 2025-01-07 13.16.23.excalidraw.md",
