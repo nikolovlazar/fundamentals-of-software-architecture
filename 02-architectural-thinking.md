@@ -35,11 +35,11 @@ Transitioning to an architect role from a developer role means a shift in perspe
 1. An architect tries to maintain expertise in wide variety of areas, succeeding in none of them
 2. *Stale expertise* - the mistaken sensation that your outdated information is still cutting edge
 
-### Frozen Cavemen Anti-Pattern
+### Frozen Caveman Anti-Pattern
 
-The Frozen Cavemen anti-pattern is a behavioral anti-pattern that describes an architect who always reverts back to their irrational concerns for every architecture. One of Neil's (the author) colleagues worked on a centralized system, but each time they delivered a design they asked "But what if we lose Italy?". Several years before, a communication problem had prevented the HQ to communicate with stores in Italy and caused great inconveniences. Because of that, the architect had become obsessed with this particular architectural characteristic.
+The Frozen Caveman anti-pattern is a behavioral anti-pattern that describes an architect who always reverts back to their irrational concerns for every architecture. One of Neil's (the author) colleagues worked on a centralized system, but each time they delivered a design they asked "But what if we lose Italy?". Several years before, a communication problem had prevented the HQ to communicate with stores in Italy and caused great inconveniences. Because of that, the architect had become obsessed with this particular architectural characteristic.
 
-This anti-pattern manifests in architects who have been burned in the past by either a bad decision or something unexpected, making them particularly cautious in the future. Assessing the risk is important, but we should also be realistic. We should understand the difference between genuine and perceived technical risk. Thinking like an architect means overcoming these "frozen cavemen" ideas, seeing other solutions, and asking more relevant questions.
+This anti-pattern manifests in architects who have been burned in the past by either a bad decision or something unexpected, making them particularly cautious in the future. Assessing the risk is important, but we should also be realistic. We should understand the difference between genuine and perceived technical risk. Thinking like an architect means overcoming these "frozen caveman" ideas, seeing other solutions, and asking more relevant questions.
 
 ## Analyzing Trade-offs
 
