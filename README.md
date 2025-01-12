@@ -8,7 +8,7 @@ This is a summary of the [Fundamentals of Software Architecture](https://www.ore
 
 > Part I. Foundations
 
-2. Architectural Thinking
+2. [Architectural Thinking](./02-architectural-thinking.md)
 3. Modularity
 4. Architecture Characteristics Defined
 5. Identifying Architectural Characteristics
