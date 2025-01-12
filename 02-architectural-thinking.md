@@ -45,11 +45,11 @@ This anti-pattern manifests in architects who have been burned in the past by ei
 
 Thinking like an architect is seeing trade-offs in every solution, and analyzing them to determine which one is the best.
 
-> *Architecture is the stuff you can't google* - Mark Richards
+> "Architecture is the stuff you can't google" - Mark Richards
 
 *Everything* in architecture is a trade-off, hence the famous answer to everything - "it depends".
 
-> *There are no right or wrong answers in architecture - only trade-offs* - Neil Ford
+> "There are no right or wrong answers in architecture - only trade-offs" - Neil Ford
 
 Let's see an example of an item auction system, where someone places a bid for an item up for auction. The `BidProducer` service generates a bid from the bidder and sends it to the `BidCapture`, `BidTracking`, and `BidAnalytics` services. There are two possible solutions: using *queues* (point-to-point) or *a topic* (pub-sub). Which one should the architect use?
 
