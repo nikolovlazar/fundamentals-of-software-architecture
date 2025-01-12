@@ -14,7 +14,7 @@ Thinking like an architect is knowing the difference between architecture and de
 
 Traditionally, an architect's responsibility included analyzing business requirements and translating them to architectural characteristics, deciding architecture patterns and styles will be used, and creating components (building blocks of the system). These artifacts were then handed off to the development team.
 
-![Traditional responsibility model](./assets/traditional-responsibility-model.excalidraw.png)
+![Traditional responsibility model](./assets/traditional-responsibility-model.excalidraw.svg)
 
 The unidirectional arrow passing through the barrier(s) is what's wrong with the traditional responsibility model because it separates the architect from the developer. Decisions that the architect makes sometimes never make it to the development team, and vice versa - decisions that the development team makes that affect the architecture never make it back to the architect. To make architecture work, we need to break down the barriers. The architect and the developer must be on the same team. This also allows the architect to provide mentoring and coaching to the developers on the team.
 
@@ -25,7 +25,7 @@ So, where does architecture end and design start? It doesn't - they coexist in p
 A developer focuses on acquiring and maintaining *technical depth*, while an architect focuses on *technical breadth*. It's crucial to have a significant amount of breadth in order to think like an architect.
 
 We can categorize all of the knowledge into three sections: *stuff we know*, *stuff we know we don't know*, *stuff we don't know we don't know*.
-![Knowledge pyramid](./assets/knowledge-pyramid.excalidraw.png)
+![Knowledge pyramid](./assets/knowledge-pyramid.excalidraw.svg)
 
 A large part of the architect's value is having a *broad* technological understanding and knowing how to use it to solve particular problems. The most important part of the pyramid for an architect are the *top* and *middle* - the further the middle part extends into the bottom one, the wider the technical breadth.
 
@@ -53,7 +53,7 @@ Thinking like an architect is seeing trade-offs in every solution, and analyzing
 
 Let's see an example of an item auction system, where someone places a bid for an item up for auction. The `BidProducer` service generates a bid from the bidder and sends it to the `BidCapture`, `BidTracking`, and `BidAnalytics` services. There are two possible solutions: using *topic* (pub-sub) or *queues* (point-to-point). Which one should the architect use?
 
-![Auction System using Topics](./assets/auction-system-topic.excalidraw.png)
+![Auction System using Topics](./assets/auction-system-topic.excalidraw.svg)
 
 Let's analyze the *topic* solution:
 - The `BidProducer` service only requires a single connection to a topic
@@ -62,7 +62,7 @@ Let's analyze the *topic* solution:
 
 The topic solution has a clear advantage - *architectural extensibility*.
 
-![Auction System using Queues](./assets/auction-system-queues.excalidraw.png)
+![Auction System using Queues](./assets/auction-system-queues.excalidraw.svg)
 
 
 Now let's compare the *queues* solution with the *topic* solution:
