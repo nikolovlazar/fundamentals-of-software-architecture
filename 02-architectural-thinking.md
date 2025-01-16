@@ -1,7 +1,7 @@
 <p><a target="_blank" href="https://app.eraser.io/workspace/o008nbZc8pGLpWNDO3ON" id="edit-in-eraser-github-link"><img alt="Edit in Eraser" src="https://firebasestorage.googleapis.com/v0/b/second-petal-295822.appspot.com/o/images%2Fgithub%2FOpen%20in%20Eraser.svg?alt=media&amp;token=968381c8-a7e7-472a-8ed6-4a6626da5501"></a></p>
 
 # Architectural Thinking
->  Watch video for more details and discussions ^ 
+>  [﻿Watch video](https://www.youtube.com/watch?v=zMfc58hHwA4) for more details and discussions 
 
 Architectural thinking is seeing things differently from a developer's perspective. It's not just "thinking about the architecture".
 
@@ -16,7 +16,7 @@ Thinking like an architect is knowing the difference between architecture and de
 
 Traditionally, an architect's responsibility included analyzing business requirements and translating them to architectural characteristics, deciding architecture patterns and styles will be used, and creating components (building blocks of the system). These artifacts were then handed off to the development team.
 
-![Traditional responsibility model](./assets/traditional-responsibility-model.svg "")
+![Traditional responsibility model](/.eraser/o008nbZc8pGLpWNDO3ON___WhwVypXxjuVn81MLunXxdiW2wTY2___---figure---FZjVIKWvU6dIxTuOPDdmY---figure---rUSgwSeU4AqOPKkBO8slXw.png "Traditional responsibility model")
 
 The unidirectional arrow passing through the barrier(s) is **what's wrong** with the traditional responsibility model because it **separates the architect from the developer**. Decisions that the architect makes sometimes never make it to the development team, and vice versa - decisions that the development team makes that affect the architecture never make it back to the architect. To make architecture work, we need to **break down the barriers**. The architect and the developer must be on the same team. This also allows the architect to provide mentoring and coaching to the developers on the team.
 
@@ -27,7 +27,7 @@ A developer focuses on acquiring and maintaining _technical depth_, while an arc
 
 We can categorize all of the knowledge into three sections: _stuff we know_, _stuff we know we don't know_, _stuff we don't know we don't know_.
 
-![Knowledge pyramid](./assets/knowledge-pyramid.svg "")
+![Knowledge Pyramid](/.eraser/o008nbZc8pGLpWNDO3ON___WhwVypXxjuVn81MLunXxdiW2wTY2___---figure---97_IG2F0Ahi2TXWQ986cK---figure---698TOj5zAAEo_rmFLzb3KA.png "Knowledge Pyramid")
 
 A large part of the architect's value is having a _broad_ technological understanding and knowing how to use it to solve particular problems. The most important part of the pyramid for an architect are the _top_ and _middle_ - the further the middle part extends into the bottom one, the wider the technical breadth.
 
@@ -53,7 +53,7 @@ _Everything_ in architecture is a trade-off, hence the famous answer to everythi
 
 Let's see an example of an item auction system, where someone places a bid for an item up for auction. The `BidProducer` service generates a bid from the bidder and sends it to the `BidCapture`, `BidTracking`, and `BidAnalytics` services. There are two possible solutions: using _topic_ (pub-sub) or _queues_ (point-to-point). Which one should the architect use?
 
-![Auction System using Topics](./assets/auction-system-topic.svg "")
+![Auction System using a Topic](/.eraser/o008nbZc8pGLpWNDO3ON___WhwVypXxjuVn81MLunXxdiW2wTY2___---figure---jQgcd6K7Jv_Nfrr9m_01X---figure---FUJe4gv3rawWCb7VHiUSIg.png "Auction System using a Topic")
 
 Let's analyze the _topic_ solution:
 
@@ -62,7 +62,7 @@ Let's analyze the _topic_ solution:
 - The `BidProducer`  is more decoupled - doesn't know how the bid info is used
 The topic solution has a clear advantage - _architectural extensibility_.
 
-![Auction System using Queues](./assets/auction-system-queues.svg "")
+![Auction System using Queues](/.eraser/o008nbZc8pGLpWNDO3ON___WhwVypXxjuVn81MLunXxdiW2wTY2___---figure---MK5pFrbPTYSgGcw5afcdE---figure---KYtT-yjHsLFbvoQZGeDBxw.png "Auction System using Queues")
 
 Now let's compare the _queues_ solution with the _topic_ solution:
 
@@ -84,6 +84,8 @@ So, which is the better option? The answer is - "it depends". This table summari
 | ----- | ----- |
 | Architectural extensibility | Data access and security concerns |
 | Service decoupling | No heterogeneous contracts. Monitoring and programmatic scalability. |
+
+
 The point is - _everything_ has a trade-off. Thinking like an architect is analyzing these trade-offs, then asking "which is more important: extensibility or security?" The decision between different solutions always depends on business drivers, environment, and a host of other factors.
 
 ## Understanding Business Drivers
