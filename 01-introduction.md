@@ -1,13 +1,13 @@
 <p><a target="_blank" href="https://app.eraser.io/workspace/0aExo6JApaYi0ECiWX0X" id="edit-in-eraser-github-link"><img alt="Edit in Eraser" src="https://firebasestorage.googleapis.com/v0/b/second-petal-295822.appspot.com/o/images%2Fgithub%2FOpen%20in%20Eraser.svg?alt=media&amp;token=968381c8-a7e7-472a-8ed6-4a6626da5501"></a></p>
 
 # Introduction
->  [﻿Watch video](https://www.youtube.com/watch?v=WXIuQQGrUsQ&t=412) for more details and discussions
+>  Watch video for more details and discussions ^ 
 
 Software Architecture as a career does not have a clear career path because of several reasons:
 
 1. The industry doesn't have a clear definition of what "software architecture" is. When asked, the authors of this book refused to provide one. Martin Fowler in his famous whitepaper [﻿"Who Needs an Architect"](https://martinfowler.com/ieeeSoftware/whoNeedsArchitect.pdf)  refused to define it and used the famous quote: _"Architecture is about the important stuff... whatever that is"_ - Ralph Johnson.
 2. The software architect's scope of responsibilities is massive, and it continues to expand. At one point, architects only dealt with the technical aspects of architecture, but nowadays their scope includes soft skills, operational awareness, and many other responsibilities aside from the technical abilities. The authors created a mind map that's indicative of the scope of software architecture (incomplete, redrawn by me):
-[﻿responsibility-of-software-architect](https://app.eraser.io/workspace/0aExo6JApaYi0ECiWX0X?elements=xN5rA-lCiu4P8iaFusvQWw)  
+
 3. Because software evolves rapidly, creating a definition for software architecture today will most likely be outdated in a few years.
 4. Resources and materials on software architecture have only historical relevance. They're things that architects have tried, only to realize the damaging side effects some time later. Solutions that were once valid cannot work now because the context has changed.
 ## Defining Software Architecture
