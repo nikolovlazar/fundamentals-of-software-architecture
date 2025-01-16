@@ -1,7 +1,7 @@
-# Preface
+<p><a target="_blank" href="https://app.eraser.io/workspace/ziC020FbCmkBeSQ6jo9Z" id="edit-in-eraser-github-link"><img alt="Edit in Eraser" src="https://firebasestorage.googleapis.com/v0/b/second-petal-295822.appspot.com/o/images%2Fgithub%2FOpen%20in%20Eraser.svg?alt=media&amp;token=968381c8-a7e7-472a-8ed6-4a6626da5501"></a></p>
 
-[![Watch YouTube Video](https://img.youtube.com/vi/WXIuQQGrUsQ/0.jpg)](https://www.youtube.com/watch?v=WXIuQQGrUsQ)
-> Watch video for more details and discussions ^
+# Preface
+>  Watch video for more details and discussions ^ 
 
 Just like mathematicians, software architects also build theories on top of
 axioms. But unlike mathematics, the software ecosystem is dynamic and in a
@@ -13,7 +13,7 @@ There are many books and resources on software architecture that predate the
 authors believe that in order to improve our engineering practices, we must
 question the fundamental axioms on a regular basis.
 
-From [Extreme Programming](http://www.extremeprogramming.org), through CI/CD,
+From [﻿Extreme Programming](http://www.extremeprogramming.org/), through CI/CD,
 DevOps, microservices, containerization, and now cloud, engineering practices
 changed drastically over the years. At one point, "Software Architecture" was
 understood as "the stuff that's hard to change later", but with the introduction
@@ -24,3 +24,7 @@ With this book, the authors want to address _trade-off analysis_. Architects
 must assess the good, bad, and ugly of every choice, and since there's no "clear
 choice", everything is a trade-off. The authors aim to provide the readers with
 an "analytic eye" toward technology choices.
+
+
+
+<!--- Eraser file: https://app.eraser.io/workspace/ziC020FbCmkBeSQ6jo9Z --->
