@@ -8,18 +8,18 @@
         "type": "tabs",
         "children": [
           {
-            "id": "8e14f63ffd7f3fce",
+            "id": "6c5d56f39388e85c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "02-architectural-thinking.md",
-                "mode": "source",
+                "file": "03-modularity.md",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "02-architectural-thinking"
+              "title": "03-modularity"
             }
           }
         ]
@@ -84,10 +84,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "01-introduction.md"
+                "file": "03-modularity.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of 01-introduction"
+              "title": "Outline of 03-modularity"
             }
           },
           {
@@ -100,13 +100,11 @@
               "title": "Advanced Tables"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -117,23 +115,24 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "8e14f63ffd7f3fce",
+  "active": "6c5d56f39388e85c",
   "lastOpenFiles": [
+    "().md",
+    "03-modularity.md",
+    "assets/connascence-strength.png",
+    "assets/zones-of-uselessness-and-pain.png",
+    "assets/distance-from-main-sequence.png",
+    "assets/zones-of-uselessness-and-pain.png",
+    "02-architectural-thinking.md",
+    "assets/classes-cohesion.png",
+    "README.md",
     "assets/auction-system-queues.png",
     "assets/auction-system-topic.png",
     "assets/knowledge-pyramid.png",
     "assets/traditional-responsibility-model.png",
     "assets/diagram-export-1-16-2025-7_23_18-AM.png",
-    "assets/diagram-export-1-16-2025-7_23_24-AM.png",
-    "assets/diagram-export-1-16-2025-7_23_29-AM.png",
-    "assets/diagram-export-1-16-2025-7_23_35-AM.png",
     "01-introduction.md",
-    "assets/responsibility-of-software-architect.png",
-    "assets/diagram-export-1-16-2025-7_21_59-AM.png",
     "00-preface.md",
-    "02-architectural-thinking.md",
-    "README.md",
-    "assets/auction-system-topic.svg",
     "assets/auction-system-queues.excalidraw.md",
     "assets/knowledge-pyramid.excalidraw.md",
     "assets/traditional-responsibility-model.excalidraw.md",
