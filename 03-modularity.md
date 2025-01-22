@@ -47,12 +47,12 @@ _Coincidental cohesion_
 One thing to note is that _cohesion_ is a less precise metric than _coupling_, and it's often at the discretion of the architect. Let's see an example:
 ```typescript
 class CustomerMaintenance {
-	async addCustomer() {/* ... */}
-	async updateCustomer() {/* ... */}
-	async getCustomer() {/* ... */}
-	async notifyCustomer() {/* ... */}
-	async getCustomerOrders() {/* ... */}
-	async cancelCustomerOrder() {/* ... */}
+  async addCustomer() {/* ... */}
+  async updateCustomer() {/* ... */}
+  async getCustomer() {/* ... */}
+  async notifyCustomer() {/* ... */}
+  async getCustomerOrders() {/* ... */}
+  async cancelCustomerOrder() {/* ... */}
 }
 ```
 Do we leave the last two, or should be isolate them in their own `OrderMaintenance` class? The answer is - _it depends_:
