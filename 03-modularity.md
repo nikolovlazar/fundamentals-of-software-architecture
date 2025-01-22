@@ -59,7 +59,9 @@ Do we leave the last two, or should be isolate them in their own `OrderMaintenan
 - Are those the only two operations that operate on orders? If yes, then it's fine to leave them in the `CustomerMaintenance` class.
 - Is the `CustomerMaintenance` class expected to grow?
 - Would the `OrderMaintenance` class require so much knowledge of `Customer` information? If so, separating them in two classes would require a high degree of coupling to make it functional.
+
 These questions represent trade-off analysis. This is at the heart of the job of a software architect.
+
 There's a set of metrics named _"the Chidamber and Kemerer Object-oriented metrics suite"_ that includes many common code metrics. One of them is called _Lack of Cohesion in Methods_ or LCOM for short. This metric measures the structural cohesion of a module, typically a component:
 
 $\text{LCOM96b} = \frac{1}{a} \sum_{j=1}^a \frac{m-μ(Aj)}{m}$
