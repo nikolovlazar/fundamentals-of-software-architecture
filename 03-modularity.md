@@ -315,7 +315,7 @@ logUserEvent("123", "User logged in");
 
 #### Connascence properties
 
-All the connascence types we've seen so far have different properties, like _strenght_, _locality_, and _degree_.
+All the connascence types we've seen so far have different properties, like _strength_, _locality_, and _degree_.
 
 _Strength_ defines how easy it is to refactor that type of coupling. Some types of connascence are easier to refactor than others, and that defines their desirability. Architects and developers can improve the coupling characteristics of their codebase by refactoring towards better types of connascence.
 
