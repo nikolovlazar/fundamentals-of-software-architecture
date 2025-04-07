@@ -1,8 +1,12 @@
 ## Fundamentals of Software Architecture
 
-This is a summary of the [Fundamentals of Software Architecture](https://www.oreilly.com/library/view/fundamentals-of-software/9781663728357/) book. These are my own understandings of the content of the books, but I highly recommend reading the book itself for a deeper understanding.
+This is a summary of the
+[Fundamentals of Software Architecture](https://www.oreilly.com/library/view/fundamentals-of-software/9781663728357/)
+book. These are my own understandings of the content of the books, but I highly
+recommend reading the book itself for a deeper understanding.
 
 ## Table of Contents
+
 0. [Preface](./00-preface.md)
 1. [Introduction](./01-introduction.md)
 
@@ -10,7 +14,7 @@ This is a summary of the [Fundamentals of Software Architecture](https://www.ore
 
 2. [Architectural Thinking](./02-architectural-thinking.md)
 3. [Modularity](./03-modularity.md)
-4. Architecture Characteristics Defined
+4. [Architecture Characteristics Defined](./04-architecture-characteristics-defined.md)
 5. Identifying Architectural Characteristics
 6. Measuring and Governing Architecture Characteristics
 7. Scope of Architecture Characteristics
@@ -42,4 +46,5 @@ This is a summary of the [Fundamentals of Software Architecture](https://www.ore
 
 All credit goes to the authors of the book.
 
-If you notice an error or a typo, or want to supplement this summary, please feel free to open an issue or a pull request.
+If you notice an error or a typo, or want to supplement this summary, please
+feel free to open an issue or a pull request.
